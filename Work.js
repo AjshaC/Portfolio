@@ -39,16 +39,20 @@ function addProjectsToWebbPage(ProjectData, e) {
       let h1 = document.createElement("h1");
       let img = document.createElement("img");
       let paragraph = document.createElement("p");
-      let LinkP = document.createElement("p");
+      let LinkA = document.createElement("a");
 
       img.src = object.image;
       h1.innerText = object.title;
       paragraph.innerHTML = object.description;
-      LinkP.innerHTML = object.link;
 
+      if (object.link) {
+        LinkA.href = object.link;
+        LinkA.target = "_blank";
+        LinkA.innerHTML = "View more";
+      }
       outputdiv.append(constinerdiv);
       constinerdiv.append(img, imgText);
-      imgText.append(h1, paragraph, LinkP);
+      imgText.append(h1, paragraph, LinkA);
     }
   }
 }

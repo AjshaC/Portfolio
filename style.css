@@ -35,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   text-align: center;
   font-size: 15px;
   z-index: 2;
@@ -103,7 +103,7 @@
 }
 
 .buttons button {
-  margin-right: 10px;
+  /* margin-right: 10px; */
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -120,4 +120,26 @@
   color: whitesmoke;
 }
 
-/********************WORK CSS START**********************************/
+@media only screen and (max-width: 600px) {
+  .TextContent h1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 12px;
+  }
+
+  .TextContent p {
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-left: 5px;
+  }
+
+  .TextContent .fadeOut {
+    width: 80%;
+    padding-left: 15px;
+  }
+}
+
+.MyImg {
+  width: 50%;
+  height: 50%;
+}

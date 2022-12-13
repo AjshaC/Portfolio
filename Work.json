@@ -1,10 +1,9 @@
 [
   {
-    "image": "/Works-Img/Models/Athena.png",
-    "title": "AthenaParfym",
+    "image": "/Works-Img/Models/Render5.png",
+    "title": "Athena Perfume",
     "Id": 1,
-    "description": "A parfym inspired by Athena, the Greek goddess of wisdom and war, could be described as a bold and empowering scent, evoking feelings of strength and intelligence.",
-    "link": " "
+    "description": "A parfym inspired by Athena, the Greek goddess of wisdom and war, could be described as a bold and empowering scent, evoking feelings of strength and intelligence."
   },
   {
     "image": "/Works-Img/Models/Car.png",
@@ -66,8 +65,7 @@
     "image": "Works-Img/Models/DogShampoo.png",
     "title": "A Dog's Life",
     "Id": 1,
-    "description": "A logo and product design for dog shampoo.",
-    "link": " "
+    "description": "A logo and product design for dog shampoo."
   },
   {
     "image": "Works-Img/Models/Day8.06.png",
@@ -94,15 +92,13 @@
     "image": "Works-Img/UI/LORADELLA.png",
     "title": "LORADELLA BELLA",
     "Id": 2,
-    "description": "Brand design for italian pizza restaurant.",
-    "link": " "
+    "description": "Brand design for italian pizza restaurant."
   },
   {
     "image": "Works-Img/UI/LOCKIFY.png",
     "title": "Lockify",
     "Id": 2,
-    "description": "This is lockify : you can lock apps that distract you, and instead lets creativity flow and increases the motivation to develop. Lockify reminds you to prioritize time correctly but YOU taking the step yourself, and decide what you do with your time.",
-    "link": " "
+    "description": "This is lockify : you can lock apps that distract you, and instead lets creativity flow and increases the motivation to develop. Lockify reminds you to prioritize time correctly but YOU taking the step yourself, and decide what you do with your time."
   },
   {
     "image": "Works-Img/UI/BabyBook.png",
@@ -115,8 +111,7 @@
     "image": "Works-Img/UI/iFlorise (1).png",
     "title": "IFlorise",
     "Id": 2,
-    "description": "A brand Design for flower shop.",
-    "link": " "
+    "description": "A brand Design for flower shop."
   },
   {
     "image": "Works-Img/Dev/GTD.png",
@@ -130,13 +125,13 @@
     "title": "DIGITAL DIARY",
     "Id": 3,
     "description": "Digital Diary Website.",
-    "link": " "
+    "link": "https://ajshac.github.io/DigitalDiary/"
   },
   {
     "image": "Works-Img/Dev/HUSHAndCalm.png",
     "title": "Hush and Calm",
     "Id": 3,
     "description": "Website for Hush and Calm which is a place for meditation and mindfulness.",
-    "link": " "
+    "link": "https://ajshac.github.io/hushandcalm.github.io/"
   }
 ]

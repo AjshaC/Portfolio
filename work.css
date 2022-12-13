@@ -1,10 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #181818;
   display: flex;
   justify-content: center;
-  width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  animation-duration: 2s;
+  animation-name: opacitychange;
 }
 
 .wrapper {
@@ -26,6 +32,15 @@ body {
   align-items: center;
   gap: 20px;
   width: 100%;
+}
+
+#back {
+  position: absolute;
+  color: #f9b786;
+
+  left: 5%;
+  top: 50px;
+  text-decoration: none;
 }
 
 .navButtons {
@@ -60,13 +75,16 @@ body {
 .navButtons .Btnthree {
   border-bottom: 5px solid #c6dff7;
 }
-.navButtons .Btnone:hover {
+.navButtons .Btnone:hover,
+.Btnone:focus {
   background-color: #6571f8ad;
 }
-.navButtons .Btntwo:hover {
+.navButtons .Btntwo:hover,
+.Btntwo:focus {
   background-color: #8b92eeaf;
 }
-.navButtons .Btnthree:hover {
+.navButtons .Btnthree:hover,
+.Btnthree:focus {
   background-color: #c6dff7a8;
 }
 
@@ -85,7 +103,6 @@ body {
 
 .main-container .container {
   position: relative;
-  cursor: pointer;
   height: 250px;
   overflow: hidden;
 }
@@ -116,22 +133,68 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 100%;
   right: 100%;
-  margin-top: 120px;
   transition: all 0.5s ease-in-out;
-  background: rgba(183, 160, 160, 0.2);
-
+  background: #181818df;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .main-container .container:hover .Img-Text {
   top: 0;
   right: 0;
+}
+
+.main-container .Img-Text h1 {
+  color: #8b92ee;
+  font-family: "Kodchasan";
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Img-Text p {
+  color: whitesmoke;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.Img-Text a {
+  color: #f9b786;
+  text-decoration: none;
+  font-family: "Kodchasan";
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+footer {
+  bottom: 0;
+  color: wheat;
+}
+
+@media only screen and (max-width: 600px) {
+  .navButtons button {
+    font-size: 10px;
+    text-align: center;
+    width: 50%;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
+
+@keyframes opacitychange {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
