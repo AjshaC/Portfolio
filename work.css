@@ -1,0 +1,137 @@
+body {
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 80%;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.Work {
+  font-family: "Kodchasan";
+  padding-top: 10px;
+  color: #f9b786;
+  font-weight: 300;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.navButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navButtons button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 25%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #181818;
+  font-family: "Kodchasan";
+  text-align: center;
+}
+
+.navButtons .Btnone {
+  border-bottom: 5px solid #6572f8;
+}
+.navButtons .Btntwo {
+  border-bottom: 5px solid #8b92ee;
+}
+
+.navButtons .Btnthree {
+  border-bottom: 5px solid #c6dff7;
+}
+.navButtons .Btnone:hover {
+  background-color: #6571f8ad;
+}
+.navButtons .Btntwo:hover {
+  background-color: #8b92eeaf;
+}
+.navButtons .Btnthree:hover {
+  background-color: #c6dff7a8;
+}
+
+.navButtons button:active {
+  transform: scale(0.95);
+}
+
+.main-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-row-gap: 25px;
+  grid-column-gap: 25px;
+  margin-top: 50px;
+}
+
+.main-container .container {
+  position: relative;
+  cursor: pointer;
+  height: 250px;
+  overflow: hidden;
+}
+
+.main-container .container::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-container .container:hover::before {
+  top: 0;
+  right: calc(100% -5px);
+  z-index: 8;
+}
+
+.main-container .container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container .container .Img-Text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  right: 100%;
+  margin-top: 120px;
+  transition: all 0.5s ease-in-out;
+  background: rgba(183, 160, 160, 0.2);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-container .container:hover .Img-Text {
+  top: 0;
+  right: 0;
+}

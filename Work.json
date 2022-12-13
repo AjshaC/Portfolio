@@ -1,0 +1,142 @@
+[
+  {
+    "image": "/Works-Img/Models/Athena.png",
+    "title": "AthenaParfym",
+    "Id": 1,
+    "description": "A parfym inspired by Athena, the Greek goddess of wisdom and war, could be described as a bold and empowering scent, evoking feelings of strength and intelligence.",
+    "link": " "
+  },
+  {
+    "image": "/Works-Img/Models/Car.png",
+    "title": "Modern Car",
+    "Id": 1,
+    "description": "A car model design that is elegant and modern. Inspired by the future.",
+    "link": "https://youtu.be/ExtuePS8isI"
+  },
+  {
+    "image": "/Works-Img/Models/Cover.png",
+    "title": "Lost Somewhere Along",
+    "Id": 1,
+    "description": "A gif video for a song, Inspired by the lost soul.",
+    "link": "https://www.youtube.com/watch?v=Hu8dPPZN9Kw&ab_channel=CASPER "
+  },
+  {
+    "image": "/Works-Img/Models/Saga.png",
+    "title": "Saga",
+    "Id": 1,
+    "description": "Saga is created with inspiration from Lagertha from the Vikings series.",
+    "link": "https://skfb.ly/ovAqz"
+  },
+  {
+    "image": "Works-Img/Models/Amie.png",
+    "title": "Amie",
+    "Id": 1,
+    "description": "Amie is the modern version of Saga.",
+    "link": "https://skfb.ly/o9N8I"
+  },
+  {
+    "image": "Works-Img/Models/ElfGirl.png",
+    "title": "Elf Girl",
+    "Id": 1,
+    "description": "Elf Girl is a model that has been created for the purpose of highlighting the reality that exists in us humans today. The reality that today we find it easier to put on a fake smile rather than the real one.",
+    "link": "https://skfb.ly/o9zvt"
+  },
+  {
+    "image": "Works-Img/Models/BabyGirl.png",
+    "title": "BabyGirl",
+    "Id": 1,
+    "description": "This model was created with inspiration from the style of the 80s. She was created for a school project.",
+    "link": "https://skfb.ly/oBwJX"
+  },
+  {
+    "image": "Works-Img/Models/Men.png",
+    "title": "Olof",
+    "Id": 1,
+    "description": "This model was created with inspiration from the 80s, and would represent the father of BabyGirl in a school project.",
+    "link": "https://skfb.ly/oByKy"
+  },
+  {
+    "image": "Works-Img/Models/Demon.png",
+    "title": "The Bloody Demon",
+    "Id": 1,
+    "description": "The Bloody Demon was created for a school project.",
+    "link": "https://skfb.ly/oByKO"
+  },
+  {
+    "image": "Works-Img/Models/DogShampoo.png",
+    "title": "A Dog's Life",
+    "Id": 1,
+    "description": "A logo and product design for dog shampoo.",
+    "link": " "
+  },
+  {
+    "image": "Works-Img/Models/Day8.06.png",
+    "title": "Glamdring",
+    "Id": 1,
+    "description": "Gramdring is Gandalf's sword from Lord of the Rings",
+    "link": "https://youtube.com/shorts/Vz4ipLSTZKM?feature=share"
+  },
+  {
+    "image": "Works-Img/Models/DarkDream (2).png",
+    "title": "DarkDream",
+    "Id": 1,
+    "description": "A statue that was created with inspiration from the fear of the unhuman.",
+    "link": "https://skfb.ly/oByMy"
+  },
+  {
+    "image": "Works-Img/UI/FoodHands.png",
+    "title": "FoodHands",
+    "Id": 2,
+    "description": "FoodHands cares about serving dishes that are popular and that nothing is thrown away. they serve one dish a day. They also offer delivery to the person you wish to offer food to.",
+    "link": "https://www.figma.com/proto/rvHAr5WfthWQNe3EFEUIdU/Untitled?node-id=46%3A516&scaling=scale-down&page-id=0%3A1&starting-point-node-id=46%3A516"
+  },
+  {
+    "image": "Works-Img/UI/LORADELLA.png",
+    "title": "LORADELLA BELLA",
+    "Id": 2,
+    "description": "Brand design for italian pizza restaurant.",
+    "link": " "
+  },
+  {
+    "image": "Works-Img/UI/LOCKIFY.png",
+    "title": "Lockify",
+    "Id": 2,
+    "description": "This is lockify : you can lock apps that distract you, and instead lets creativity flow and increases the motivation to develop. Lockify reminds you to prioritize time correctly but YOU taking the step yourself, and decide what you do with your time.",
+    "link": " "
+  },
+  {
+    "image": "Works-Img/UI/BabyBook.png",
+    "title": "BabyBook",
+    "Id": 2,
+    "description": "Are you expecting a baby? Then baby book keeps you updated on the baby's development.",
+    "link": "https://www.figma.com/proto/xoSgNX2wBKdDzfoZiReo4v/Untitled?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+  },
+  {
+    "image": "Works-Img/UI/iFlorise (1).png",
+    "title": "IFlorise",
+    "Id": 2,
+    "description": "A brand Design for flower shop.",
+    "link": " "
+  },
+  {
+    "image": "Works-Img/Dev/GTD.png",
+    "title": "Get Things Done",
+    "Id": 3,
+    "description": "ToDo Website, that is used to organize and prioritize tasks.",
+    "link": "https://ajshac.github.io/Todo/"
+  },
+  {
+    "image": "Works-Img/Dev/Dagbok.png",
+    "title": "DIGITAL DIARY",
+    "Id": 3,
+    "description": "Digital Diary Website.",
+    "link": " "
+  },
+  {
+    "image": "Works-Img/Dev/HUSHAndCalm.png",
+    "title": "Hush and Calm",
+    "Id": 3,
+    "description": "Website for Hush and Calm which is a place for meditation and mindfulness.",
+    "link": " "
+  }
+]
