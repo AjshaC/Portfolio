@@ -139,7 +139,52 @@
   }
 }
 
+/*******************************AboutContent****************************************/
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
 .MyImg {
-  width: 50%;
-  height: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+#my-div {
+  transform: translateY(100%);
+  transition: transform 1s linear;
+}
+
+.CvBtn {
+  height: 35px;
+  width: 250px;
+  background: linear-gradient(180deg, #f9b786 -34.51%, #fe6c00 100%);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #181818;
+  border-radius: 50px;
+  text-transform: uppercase;
+
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: "Aboreto";
+  font-weight: 700;
+}
+
+.AboutContainer h1 {
+  color: #f9b786;
+  font-family: "Aboreto";
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.AboutContainer p {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  line-height: 1.5;
 }
