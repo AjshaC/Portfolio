@@ -23,7 +23,7 @@ aboutbtn.addEventListener(
     TextContent.style.display = "none";
     body.style.backgroundColor = "#181818";
     console.log("EHH");
-
+    ContactDiv.style.transform = "translateY(-900px)";
     AboutContet();
   },
   { once: true }
@@ -40,7 +40,7 @@ function AboutContet() {
   let aboutP = document.createElement("p");
   aboutP.innerHTML =
     " I am a person who works with joy to create the immersive experience. That's what I'm passionate about. My focused areas are web development, UX desing and 3D modeling. In addition to this, I am a very driven person who works hard for what I believe in.";
-  aboutDiv.style.transform = "translateY(0)";
+  aboutDiv.style.transform = "translateY(20%)";
 
   let CvA = document.createElement("a");
   CvA.href = "Ajsha Caca.pdf";
@@ -49,25 +49,16 @@ function AboutContet() {
   CvA.className = "CvBtn";
 
   aboutDiv.append(img, Nameh1, aboutP, CvA);
-  HeroContainer.append(aboutDiv);
+  //HeroDiv.append(aboutDiv);
 }
-
-/* <div class="ContactContainer">
-<h1>HEllo</h1>
-<p>HSdasd</p>
-<div class="linkDiv">
-  <a href=""></a>
-  <a href=""></a>
-</div>
-</div> */
 
 contactBtn.addEventListener(
   "click",
   () => {
+    aboutDiv.style.transform = "translateY(200%)";
     videoDiv.style.display = "none";
     TextContent.style.display = "none";
     body.style.backgroundColor = "#181818";
-    console.log("EHH");
 
     ContactContent();
   },
@@ -82,8 +73,6 @@ function ContactContent() {
   contactP.innerHTML =
     "If you have a project idea in mind, please email me and provide details about it. I will then come up with different solutions and we can discuss and choose the best one together. If you just want to chat, feel free to reach out to me.";
 
-  let emojiP = document.createElement("p");
-  emojiP.innerHTML = "&#xU+2763";
   let LinkDiv = document.createElement("div");
   LinkDiv.className = "LinkDiv";
 
@@ -98,7 +87,8 @@ function ContactContent() {
 
   LinkedinHref.className = "fa-brands fa-linkedin fa-bounce";
 
+  ContactDiv.style.transform = "translateY(0)";
+
   LinkDiv.append(MailHref, LinkedinHref);
-  ContactDiv.append(h1, contactP, emojiP, LinkDiv);
-  HeroContainer.append(ContactDiv);
+  ContactDiv.append(h1, contactP, LinkDiv);
 }
