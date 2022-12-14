@@ -91,7 +91,7 @@
 .buttons {
   z-index: 2;
   position: absolute;
-  top: 0;
+  top: 5px;
   padding-top: 10px;
   align-items: center;
   text-align: center;
@@ -144,13 +144,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 
 .MyImg {
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(249, 183, 134, 0.4);
 }
 
 #my-div {
@@ -167,24 +169,74 @@
   color: #181818;
   border-radius: 50px;
   text-transform: uppercase;
-
+  text-decoration: none;
   font-size: 16px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
   letter-spacing: 5px;
   text-align: center;
   font-family: "Aboreto";
   font-weight: 700;
 }
 
-.AboutContainer h1 {
+.AboutContainer h1,
+.ContactContainer h1 {
   color: #f9b786;
   font-family: "Aboreto";
   text-transform: uppercase;
   font-size: 20px;
 }
 
-.AboutContainer p {
+.AboutContainer p,
+.ContactContainer p {
+  width: 50%;
   color: white;
   text-align: center;
   font-family: Arial;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+  .MyImg {
+    width: 50%;
+    height: 50%;
+  }
+
+  .AboutContainer p,
+  .ContactContainer p {
+    width: 90%;
+  }
+}
+
+/*******************************EndAboutContent****************************************/
+
+/*******************************ContactMeContent****************************************/
+
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+
+.LinkDiv {
+  display: flex;
+  gap: 20px;
+}
+.LinkDiv a {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(180deg, #f9b786 -34.51%, #fe6c00 100%);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: #181818;
 }
