@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   width: 100%;
 }
 
@@ -65,17 +65,23 @@ body {
   text-align: center;
 }
 
-.navButtons .Btnone {
-  border-bottom: 5px solid #6572f8;
-}
-.navButtons .Btntwo {
-  border-bottom: 5px solid #8b92ee;
+.Btnone,
+.Btntwo,
+.Btnthree {
+  border-bottom: 5px solid #f9b88685;
 }
 
-.navButtons .Btnthree {
-  border-bottom: 5px solid #c6dff7;
+.Btnone:hover,
+.Btnone:focus,
+.Btntwo:hover,
+.Btntwo:focus,
+.Btnthree:hover,
+.Btnthree:focus {
+  background-color: #f9b886d6;
+  color: #181818;
 }
-.navButtons .Btnone:hover,
+
+/* .navButtons .Btnone:hover,
 .Btnone:focus {
   background-color: #6571f8ad;
 }
@@ -86,7 +92,7 @@ body {
 .navButtons .Btnthree:hover,
 .Btnthree:focus {
   background-color: #c6dff7a8;
-}
+} */
 
 .navButtons button:active {
   transform: scale(0.95);
