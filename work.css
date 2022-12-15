@@ -81,19 +81,6 @@ body {
   color: #181818;
 }
 
-/* .navButtons .Btnone:hover,
-.Btnone:focus {
-  background-color: #6571f8ad;
-}
-.navButtons .Btntwo:hover,
-.Btntwo:focus {
-  background-color: #8b92eeaf;
-}
-.navButtons .Btnthree:hover,
-.Btnthree:focus {
-  background-color: #c6dff7a8;
-} */
-
 .navButtons button:active {
   transform: scale(0.95);
 }

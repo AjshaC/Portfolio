@@ -30,10 +30,15 @@ aboutP.innerHTML =
   " I am a person who works with joy to create the immersive experience. That's what I'm passionate about. My focused areas are web development, UX desing and 3D modeling. In addition to this, I am a very driven person who works hard for what I believe in.";
 
 let CvA = document.createElement("a");
-CvA.href = "Ajsha Caca.pdf";
+CvA.href = "Cv (1).pdf";
 CvA.target = "_blank";
 CvA.innerHTML = "RESUME";
 CvA.className = "CvBtn";
+
+let backA = document.createElement("a");
+backA.href = "index.html";
+backA.innerHTML = "HOME";
+backA.className = "backA";
 
 /************AboutcontentEnd********************** */
 
@@ -74,7 +79,7 @@ aboutbtn.addEventListener("click", () => {
 
 function AboutContet() {
   aboutDiv.style.transform = "translateY(10%)";
-  aboutDiv.append(img, Nameh1, aboutP, CvA);
+  aboutDiv.append(img, Nameh1, aboutP, CvA, backA);
 
   //HeroDiv.append(aboutDiv);
 }
@@ -92,5 +97,5 @@ function ContactContent() {
   ContactDiv.style.transform = "translateY(-50%)";
 
   LinkDiv.append(MailHref, LinkedinHref);
-  ContactDiv.append(h1, contactP, LinkDiv);
+  ContactDiv.append(h1, contactP, LinkDiv, backA);
 }

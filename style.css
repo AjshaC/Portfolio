@@ -250,3 +250,14 @@
   font-size: 30px;
   color: #181818;
 }
+
+.backA {
+  text-decoration: none;
+  color: #f9b786;
+  font-family: "Aboreto";
+  text-transform: uppercase;
+}
+
+.backA:hover {
+  transform: scale(1.2);
+}
