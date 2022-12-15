@@ -229,7 +229,7 @@
 }
 
 #Call-div {
-  transform: translateY(0); /*-200px*/
+  transform: translateY(-100%); /*-200px*/
   transition: transform 1s linear;
 }
 
