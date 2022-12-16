@@ -60,6 +60,9 @@
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
+  animation-duration: 6s;
+  animation-name: opacitychange;
+  animation-iteration-count: 1;
 }
 
 .TextContent button::after {
@@ -83,10 +86,16 @@
   font-size: 50px;
   font-weight: lighter;
   padding-bottom: 20px;
+  animation-duration: 6s;
+  animation-name: opacitychange;
+  animation-iteration-count: 1;
 }
 
 .TextContent p {
   font-family: monospace;
+  animation-duration: 6s;
+  animation-name: opacitychange;
+  animation-iteration-count: 1;
 }
 .buttons {
   z-index: 2;
@@ -158,12 +167,13 @@
   height: 15%;
   border-radius: 50%;
   box-shadow: 0px 0px 20px rgba(249, 183, 134, 0.4);
+  animation-duration: 3s;
+  animation-name: opacitychange;
 }
 
-#my-div {
-  transform: translateY(100%);
+/* #my-div {
   transition: transform 0.5s ease-in;
-}
+} */
 
 .CvBtn {
   height: 35px;
@@ -185,6 +195,14 @@
   font-weight: 700;
 }
 
+.CvBtn {
+  animation-duration: 3s;
+  animation-name: opacitychange;
+  animation-duration: 2s;
+  animation-name: transformtop;
+  animation-iteration-count: 1;
+}
+
 .AboutContainer h1,
 .ContactContainer h1 {
   color: #f9b786;
@@ -200,6 +218,28 @@
   text-align: center;
   font-family: Arial;
   line-height: 1.5;
+}
+
+.AboutContainer p {
+  animation-duration: 2s;
+  animation-name: transformtop;
+  animation-iteration-count: 1;
+}
+.ContactContainer p {
+  animation-duration: 2s;
+  animation-name: transformbottom;
+  animation-iteration-count: 1;
+}
+
+.AboutContainer h1 {
+  animation-duration: 2s;
+  animation-name: transformtop;
+  animation-iteration-count: 1;
+}
+.ContactContainer h1 {
+  animation-duration: 2s;
+  animation-name: transformbottom;
+  animation-iteration-count: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -228,10 +268,9 @@
   gap: 30px;
 }
 
-#Call-div {
-  transform: translateY(0%); /*-200px*/
+/* #Call-div {
   transition: transform 0.5s ease-out;
-}
+} */
 
 .LinkDiv {
   display: flex;
@@ -249,6 +288,9 @@
   text-decoration: none;
   font-size: 30px;
   color: #181818;
+  animation-duration: 6s;
+  animation-name: opacitychange;
+  animation-iteration-count: 1;
 }
 
 .backA {
@@ -256,8 +298,37 @@
   color: #f9b786;
   font-family: "Aboreto";
   text-transform: uppercase;
+  animation-duration: 6s;
+  animation-name: opacitychange;
+  animation-iteration-count: 1;
 }
 
 .backA:hover {
   transform: scale(1.2);
+}
+
+@keyframes transformtop {
+  from {
+    margin-top: 200px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+@keyframes transformbottom {
+  from {
+    margin-bottom: 200px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+
+@keyframes opacitychange {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -68,33 +68,35 @@ LinkedinHref.className = "fa-brands fa-linkedin fa-bounce";
 /************ContectcontentEnd********************** */
 
 aboutbtn.addEventListener("click", () => {
+  ContactDiv.innerHTML = " ";
   videoDiv.style.display = "none";
   TextContent.style.display = "none";
   body.style.backgroundColor = "#181818";
   console.log("EHH");
-  ContactDiv.style.transform = "translateY(150%)"; // 150%
+  // ContactDiv.style.transform = "translateY(150%)"; // 150%
 
   AboutContet();
 });
 
 function AboutContet() {
-  aboutDiv.style.transform = "translateY(10%)";
+  // aboutDiv.style.transform = "translateY(10%)";
   aboutDiv.append(img, Nameh1, aboutP, CvA, backA);
 
   //HeroDiv.append(aboutDiv);
 }
 
 contactBtn.addEventListener("click", () => {
+  aboutDiv.innerHTML = "";
   videoDiv.style.display = "none";
   TextContent.style.display = "none";
   body.style.backgroundColor = "#181818";
-  aboutDiv.style.transform = "translateY(-120%)";
+  // aboutDiv.style.transform = "translateY(-120%)";
 
   ContactContent();
 });
 
 function ContactContent() {
-  ContactDiv.style.transform = "translateY(-50%)";
+  // ContactDiv.style.transform = "translateY(-50%)";
 
   LinkDiv.append(MailHref, LinkedinHref);
   ContactDiv.append(h1, contactP, LinkDiv, backA);
