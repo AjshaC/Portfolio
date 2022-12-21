@@ -214,7 +214,7 @@
 .AboutContainer p,
 .ContactContainer p {
   width: 50%;
-  color: white;
+  color: rgba(255, 255, 255, 0.774);
   text-align: center;
   font-family: Arial;
   line-height: 1.5;

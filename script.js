@@ -27,7 +27,7 @@ Nameh1.innerHTML = "Lets get to know each other";
 
 let aboutP = document.createElement("p");
 aboutP.innerHTML =
-  " I am a person who works with joy to create the immersive experience. That's what I'm passionate about. My focused areas are web development, UX desing and 3D modeling. In addition to this, I am a very driven person who works hard for what I believe in.";
+  " I am a person who works with joy to create immersive experiences. That's what I'm passionate about. My focused areas are web development, UX design, and 3D modeling. In addition to this, I am a very driven person who works hard for what I believe in.";
 
 let CvA = document.createElement("a");
 CvA.href = "Cv (1).pdf";
@@ -73,16 +73,12 @@ aboutbtn.addEventListener("click", () => {
   TextContent.style.display = "none";
   body.style.backgroundColor = "#181818";
   console.log("EHH");
-  // ContactDiv.style.transform = "translateY(150%)"; // 150%
 
   AboutContet();
 });
 
 function AboutContet() {
-  // aboutDiv.style.transform = "translateY(10%)";
   aboutDiv.append(img, Nameh1, aboutP, CvA, backA);
-
-  //HeroDiv.append(aboutDiv);
 }
 
 contactBtn.addEventListener("click", () => {
@@ -90,14 +86,11 @@ contactBtn.addEventListener("click", () => {
   videoDiv.style.display = "none";
   TextContent.style.display = "none";
   body.style.backgroundColor = "#181818";
-  // aboutDiv.style.transform = "translateY(-120%)";
 
   ContactContent();
 });
 
 function ContactContent() {
-  // ContactDiv.style.transform = "translateY(-50%)";
-
   LinkDiv.append(MailHref, LinkedinHref);
   ContactDiv.append(h1, contactP, LinkDiv, backA);
 }
