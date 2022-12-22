@@ -1,26 +1,26 @@
 [
   {
-    "image": "/Works-Img/Models/Render5.png",
+    "image": "Works-Img/Models/Render5.png",
     "title": "Athena Perfume",
     "Id": 1,
     "description": "A parfym inspired by Athena, the Greek goddess of wisdom and war, could be described as a bold and empowering scent, evoking feelings of strength and intelligence."
   },
   {
-    "image": "/Works-Img/Models/Car.png",
+    "image": "Works-Img/Models/Car.png",
     "title": "Modern Car",
     "Id": 1,
     "description": "A car model design that is elegant and modern. Inspired by the future.",
     "link": "https://youtu.be/ExtuePS8isI"
   },
   {
-    "image": "/Works-Img/Models/Cover.png",
-    "title": "Lost Somewhere Along",
+    "image": "Works-Img/Models/Cover.png",
+    "title": "Lost Somewhere Alone",
     "Id": 1,
     "description": "A gif video for a song, Inspired by the lost soul.",
     "link": "https://www.youtube.com/watch?v=Hu8dPPZN9Kw&ab_channel=CASPER "
   },
   {
-    "image": "/Works-Img/Models/Saga.png",
+    "image": "Works-Img/Models/Saga.png",
     "title": "Saga",
     "Id": 1,
     "description": "Saga is created with inspiration from Lagertha from the Vikings series.",
